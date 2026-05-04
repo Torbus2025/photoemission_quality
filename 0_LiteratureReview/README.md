@@ -4,9 +4,9 @@ Approaches or solutions that have been tried before on similar projects.
 
 **Summary of Each Work**:
 
-- **Source 1**: [Title of Source 1]
+- **Source 1**: [A simulation-based training framework for machine-learning applications in ARPES]
 
-  - **[Link]()**
+  - **[Link](https://arxiv.org/html/2508.15983v1)**
   - **Objective**:
   - **Methods**:
   - **Outcomes**:
