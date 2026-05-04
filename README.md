@@ -1,16 +1,16 @@
-# [Your Project Title Here]
+# [Photoemission Pre-evaluation]
 
 ## Repository Link
 
-[https://github.com/your_username/your_project_name]
+[https://github.com/Torbus2025/photoemission_quality]
 
 ## Description
 
-[Short project description here. Briefly summarize the problem you are trying to solve and the approach you're taking.]
+[The project idea is the pre-evaluation of the photoemission spectra. Those come from spatially resolved short time measurements, which are used to determine the best spot for a long term measurement. We want to analyze the quality of the spectrum on a scale of one to five and use the symmetry as another characteristic. In the beginning we will use only one specific material and the goal would be to apply this system to all kinds of materials. ]
 
 ### Task Type
 
-[Image Classification / Chatbot / Regression / Clustering / Other]
+[Image Classification]
 
 ### Results Summary
 
