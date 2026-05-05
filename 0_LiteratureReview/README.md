@@ -20,7 +20,9 @@ Approaches or solutions that have been tried before on similar projects.
   - **Outcomes**: The SRCNN approach significantly enhances spectral features, recovering sharper band dispersions even in noisy or low-resolution data.
   - **Relation to the Project**: The study operates on the same kind of spectral data as we are and it is an interesting insight on how to extract the features, whose quality we want to discern with our model.
 
-- **Source 3**: [Title of Source 3]
+- **Source 3**: [Enhancing transfer learning in angle-resolved photoemission
+spectroscopy (ARPES) with spatially-aware representations via
+graph convolution]
 
   - **[Link]()**: https://www.osti.gov/pages/servlets/purl/3028174
   - **Objective**:
