@@ -25,7 +25,7 @@ spectroscopy (ARPES) with spatially-aware representations via
 graph convolution]
 
   - **[Link]()**: https://www.osti.gov/pages/servlets/purl/3028174
-  - **Objective**:
-  - **Methods**:
-  - **Outcomes**:
-  - **Relation to the Project**:
+  - **Objective**: The paper aims to improve transfer learning for µ/nano-ARPES data by enabling accurate domain and label assignment while incorporating spatial relationships between measurement points. This helps overcome the limitation of treating spectra independently and reduces the need for large labeled datasets.
+  - **Methods**: It combines supervised learning and self-supervised feature extraction with graph convolutional networks (GCNs) to model spatial dependencies between neighboring ARPES measurements. This enables the model to leverage both spectral features and spatial context.
+  - **Outcomes**: The approach leads to more accurate and spatially consistent classification and clustering of ARPES spectra. It reduces isolated misclassifications and improves the identification of meaningful regions in spatial maps.
+  - **Relation to the Project**: This is directly relevant to our project, as we aim to classify spatially resolved ARPES measurements (e.g., by sharpness and alignment) and identify optimal measurement spots. Incorporating spatial context, as proposed in the paper, can help generate more reliable maps and improve the selection of high-quality regions.
