@@ -31,14 +31,13 @@ graph convolution]
   - **Relation to the Project**: This is directly relevant to our project, as we aim to classify spatially resolved ARPES measurements (e.g., by sharpness and alignment) and identify optimal measurement spots. Incorporating spatial context, as proposed in the paper, can help generate more reliable maps and improve the selection of high-quality regions.
 
 - **Source 4**: [Transfer learning application of self-supervised learning in ARPES]
- - **[Link](): https://www.research-collection.ethz.ch/server/api/core/bitstreams/69e5cfca-aa9b-4d7a-af11-eb30da8b7ba1/content** 
- - **Objective**:
+  
+  - **[Link]():** https://www.research-collection.ethz.ch/server/api/core/bitstreams/69e5cfca-aa9b-4d7a-af11-eb30da8b7ba1/content 
+  - **Objective**:
 The paper aims to automate the labeling and spatial mapping of ARPES spectra using transfer learning and self-supervised learning methods. It focuses on reducing manual analysis effort for large spatially resolved ARPES datasets.
-
- - **Methods**:
+  - **Methods**:
 The authors use pretrained self-supervised vision models (e.g. DINO, BYOL, SwAV, MoCo) to extract feature representations from ARPES images. These embeddings are then analyzed using k-means clustering and few-shot k-nearest neighbor (kNN) classification.
-
- - **Outcomes**:
+  - **Outcomes**:
 The approach enables automated classification and clustering of ARPES spectra with limited labeled data. Few-shot kNN in representation space achieved promising results and demonstrated the usefulness of self-supervised transfer learning for ARPES analysis.
 
 
