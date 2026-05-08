@@ -31,7 +31,7 @@ graph convolution]
   - **Relation to the Project**: This is directly relevant to our project, as we aim to classify spatially resolved ARPES measurements (e.g., by sharpness and alignment) and identify optimal measurement spots. Incorporating spatial context, as proposed in the paper, can help generate more reliable maps and improve the selection of high-quality regions.
 
 - **Source 4**: [Transfer learning application of self-supervised learning in ARPES]
- - **[Link](https://www.research-collection.ethz.ch/server/api/core/bitstreams/69e5cfca-aa9b-4d7a-af11-eb30da8b7ba1/content)** 
+ - **[Link](): https://www.research-collection.ethz.ch/server/api/core/bitstreams/69e5cfca-aa9b-4d7a-af11-eb30da8b7ba1/content** 
  - **Objective**:
 The paper aims to automate the labeling and spatial mapping of ARPES spectra using transfer learning and self-supervised learning methods. It focuses on reducing manual analysis effort for large spatially resolved ARPES datasets.
 
@@ -43,4 +43,4 @@ The approach enables automated classification and clustering of ARPES spectra wi
 
 
 Many of the referenced papers use the ResNet50 model. It is pretrained for images and can be trained for ARPES measurements through transfer learning.
-[Link]()https://docs.pytorch.org/vision/main/models/generated/torchvision.models.resnet50?utm_source=chatgpt.com
+[Link](): https://docs.pytorch.org/vision/main/models/generated/torchvision.models.resnet50?utm_source=chatgpt.com
