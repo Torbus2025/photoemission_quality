@@ -6,11 +6,10 @@
 
 ### Dataset Source
 - **Dataset Link:** [Provide a direct link to your dataset. If the dataset is private, explain the reason and provide contact information for the dataset owner]
-- **Dataset Owner/Contact:** [If applicable, provide contact information for private datasets]
-
+- **Dataset Owner/Contact:** not needed
 ### Dataset Characteristics
-- **Number of Observations:** [Total number of samples/records in your dataset. For time series data, also specify the temporal resolution (e.g., daily, hourly, etc.)]
-- **Number of Features:** [Total number of features in your dataset]
+- **Number of Observations:** 1700
+- **Number of Features:** 2
 
 ### Target Variable/Label
 - **Label Name:** [Name of the target variable/column]
@@ -23,8 +22,8 @@
 [Provide a brief description of each feature or group of features in your dataset. If you have many features, group them logically and describe each group. Include information about data types, ranges, and what each feature represents.]
 
 **Example format:**
-- **Feature 1 (feature_name):** [Description of what this feature represents, data type, and any relevant details]
-- **Feature 2 (feature_name):** [Description of what this feature represents, data type, and any relevant details]
+- **Feature 1 (resolution):** [Description of what this feature represents, data type, and any relevant details] the resolution of the spectra on a scale from 1 to 5
+- **Feature 2 (symmetry):** [Description of what this feature represents, data type, and any relevant details] boolean, whether the spectrum is centered and symmetric
 - **Feature Group (group_name):** [Description of a group of related features]
 
 ## Exploratory Data Analysis
