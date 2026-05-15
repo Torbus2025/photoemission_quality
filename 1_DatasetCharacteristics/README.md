@@ -22,7 +22,7 @@
 [3: low noise, band structure with defect]
 [4: low noise, clear band structure]
 - **Label Distribution:** [Brief description of class balance for classification]
-    The labels are not evenly distributed in our data set, we have more labels in the categories 0 and 4 than in the rest. Because it is important for us, that the labeling of the best spots is correct, we hope that the middle classes being underrepresented does not heavily influence the end performance. 
+    The labels are not evenly distributed in our data set, we have more labels in category 3 than in the rest.
 
 ### Feature Description
 [Provide a brief description of each feature or group of features in your dataset. If you have many features, group them logically and describe each group. Include information about data types, ranges, and what each feature represents.]
