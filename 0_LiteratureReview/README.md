@@ -42,4 +42,4 @@ The approach enables automated classification and clustering of ARPES spectra wi
 
 
 Many of the referenced papers use the ResNet50 model. It is pretrained for images and can be trained for ARPES measurements through transfer learning.
-[Link](): https://docs.pytorch.org/vision/main/models/generated/torchvision.models.resnet50?utm_source=chatgpt.com
+[Link](https://docs.pytorch.org/vision/main/models/generated/torchvision.models.resnet50?utm_source=chatgpt.com): https://docs.pytorch.org/vision/main/models/generated/torchvision.models.resnet50?utm_source=chatgpt.com
