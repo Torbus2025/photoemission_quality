@@ -9,20 +9,27 @@
 - **Dataset Owner/Contact:** not needed
 ### Dataset Characteristics
 - **Number of Observations:** 1765
-- **Number of Features:** 2
+- **Number of Features:** 1
 
 ### Target Variable/Label
-- **Label Name:** [Name of the target variable/column]
-- **Label Type:** [Classification/Regression/Clustering/Other]
-- **Label Description:** [What does this label represent? What is the prediction task?]
-- **Label Values:** [For classification: list of classes and their meanings. For regression: range of values. For other tasks: describe the label structure]
-- **Label Distribution:** [Brief description of class balance for classification or value distribution for regression]
+- **Label Name:** [Resolution]
+- **Label Type:** [Classification]
+- **Label Description:** [The quality of the spectra in regards to the shown band structure]
+- **Label Values:** [For classification: list of classes and their meanings.]
+[0: only noise]
+[1: high noise, visible band structure]
+[2: high noise, distinct band structure]
+[3: low noise, band structure with defect]
+[4: low noise, clear band structure]
+- **Label Distribution:** [Brief description of class balance for classification]
+    The labels are not evenly distributed in our data set, we have more labels in the categories 0 and 4 than in the rest. Because it is important for us, that the labeling of the best spots is correct, we hope that the middle classes being underrepresented does not heavily influence the end performance. 
 
 ### Feature Description
 [Provide a brief description of each feature or group of features in your dataset. If you have many features, group them logically and describe each group. Include information about data types, ranges, and what each feature represents.]
 
-**Example format:**
-- **Feature  (intensity):** [Description of what this feature represents, data type, and any relevant details] the resolution of the spectra on a scale from 1 to 5
+**Feature  (intensity):** [Description of what this feature represents, data type, and any relevant details] The intensity is the measured count of detected electrons with a specific energy under a specific angle. The data set is stored in a hdf5 file, which structure is examined in the jupyter notebook.
+The intensity is an integer value, but it is stored as a 32bit Float.
+
 
 
 ## Exploratory Data Analysis
