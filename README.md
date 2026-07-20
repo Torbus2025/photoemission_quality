@@ -25,10 +25,11 @@ Image Classification
 - **Best Alternative Model:** model_resnet18: 75% precision class 4, 83% accuracy 
 
 #### Key Insights
-- **Most Important Features:**   - random energy window crop is a very effective method to inhibit overfitting
-                                 - lognormalize decreases the effect of hotpixel influence
-                                 - resize will be important for future application
-                                 - weights of different classes in the CrossEntropyLoss is necessary to compensate the class imbalance
+- **Most Important Features:**   
+    - random energy window crop is a very effective method to inhibit overfitting
+    - lognormalize decreases the effect of hotpixel influence
+    - resize will be important for future application
+    - weights of different classes in the CrossEntropyLoss is necessary to compensate the class imbalance
 - **Model Strengths:** In contrast to the baseline model, the labeling of a second unrelated dataset is working considerably better. That is why the model can be considered a success even with a slight decrease in the used metrics. 
 - **Model Limitations:** The model is only trained on one material and temperature, thus it is only applicable to those datasets for now. The labeling by hand limits the quality of the training data. 
 - **Business Impact:** With further training the application in the lab is possible to automatize the selection of the best spot for longterm measurements. 
