@@ -6,28 +6,27 @@
 
 ### Dataset Source
 - **Dataset Link:** [Dataset](https://cloud.rz.uni-kiel.de/index.php/s/ipoGJTNYFipnQpw)
-- **Dataset Owner/Contact:** not needed
+- **Dataset Owner/Contact:** Dr. Matthias Kalläne
 ### Dataset Characteristics
 - **Number of Observations:** 1765
 - **Number of Features:** 1
 
 ### Target Variable/Label
-- **Label Name:** [Resolution]
-- **Label Type:** [Classification]
-- **Label Description:** [The quality of the spectra in regards to the shown band structure]
-- **Label Values:** [For classification: list of classes and their meanings.]
-[0: only noise]
-[1: high noise, visible band structure]
-[2: high noise, distinct band structure]
-[3: low noise, band structure with defect]
-[4: low noise, clear band structure]
-- **Label Distribution:** [Brief description of class balance for classification]
-    The labels are not evenly distributed in our data set, we have more labels in category 3 than in the rest.
+- **Label Name:** Resolution
+- **Label Type:** Image Classification
+- **Label Description:** The quality of the spectra in regards to the shown band structure
+- **Label Values:** 
+0: assymmetric, different domains
+1: no visible bands
+2: one clearly visible band
+3: two bands
+4: two bands clearly distinguishable, good spot for measurement
+- **Label Distribution:** 
+    The labels are not evenly distributed in our data set, the label balance is as follows from most to least: 3 > 0 > 4 > 2 > 1
 
 ### Feature Description
-[Provide a brief description of each feature or group of features in your dataset. If you have many features, group them logically and describe each group. Include information about data types, ranges, and what each feature represents.]
 
-**Feature  (intensity):** [Description of what this feature represents, data type, and any relevant details] The intensity is the measured count of detected electrons with a specific energy under a specific angle. The data set is stored in a hdf5 file, which structure is examined in the jupyter notebook.
+**Feature  (intensity):** The intensity is the measured count of detected electrons with a specific energy under a specific angle. The data set is stored in a hdf5 file, which structure is examined in the jupyter notebook.
 The intensity is an integer value, but it is stored as a 32bit Float.
 
 
