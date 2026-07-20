@@ -18,10 +18,12 @@ We used a binned dataset, the original big dataset worked as well but slowed dow
     - label smoothing to reduce effects of wrongfully labeled data
     - CrossEntropyLoss used, different ones didn't improve outcome
     - Adam Optimizer
-    - 
+    - we tried to train on maximum precision label 4 which improved precision of that label, but decreased accuracy significantly due to overfitting
 
 - **Evaluation Metrics**
+We use primarily the precision of label 4, because it is important for us, that the suggested spectra really are of the highest quality. The accuracy is an additional assurance of the general performance to be sure the labeling of the other classes works as intended.
 
 - **Comparative Analysis**
+The comparison wiith the baseline model can be found in **[README](../README.md)**. The presentation also shows the comparison of the different models used.
 
 **[Notebook](model_definition_evaluation)**
