@@ -5,8 +5,8 @@
 ## Dataset Information
 
 ### Dataset Source
-- **Dataset Link:** [Dataset](https://cloud.rz.uni-kiel.de/index.php/s/ipoGJTNYFipnQpw)
-- **Dataset Owner/Contact:** Dr. Matthias Kalläne
+- **Dataset Link:** can be requested
+- **Dataset Owner/Contact:** AG Rossnagel, IEAP Kiel University
 ### Dataset Characteristics
 - **Number of Observations:** 1765
 - **Number of Features:** 1
