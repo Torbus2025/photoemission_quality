@@ -1,34 +1,37 @@
-# [Photoemission Pre-evaluation]
+# Photoemission Spectrum Classification
 
 ## Repository Link
 
-[https://github.com/Torbus2025/photoemission_quality]
+https://github.com/Torbus2025/photoemission_quality
 
 ## Description
 
-[The project idea is the pre-evaluation of the photoemission spectra. Those come from spatially resolved short time measurements, which are used to determine the best spot for a long term measurement. We want to analyze the quality of the spectrum on a scale of one to five and use the symmetry as another characteristic. In the beginning we will use only one specific material and the goal would be to apply this system to all kinds of materials. ]
+The project idea is the pre-evaluation of photoemission spectra. Those come from spatially resolved short time measurements, which are used to determine the best spot for a long term measurement. We want to analyze the quality of the spectrum on a scale of zero to four. In the beginning we will use only one specific material and the goal would be to apply this system to all kinds of materials in the future.
 
 ### Task Type
 
-[Image Classification]
+Image Classification
 
 ### Results Summary
 
 #### Best Model Performance
-- **Best Model:** [Name and type of the best-performing model"]
-- **Evaluation Metric:** [Primary metric used, e.g., Accuracy, F1-Score, MSE, MAE]
-- **Final Performance:** [Best score achieved, e.g., 95% accuracy, F1-score of 0.87, MSE of 0.12]
+- **Best Model:** model_resnet50
+- **Evaluation Metric:** precision of the labeling of class 4, accuracy
+- **Final Performance:** 85% precision class 4, 87% accuracy
 
 #### Model Comparison
-- **Baseline Performance:** [Baseline model performance for comparison]
-- **Improvement Over Baseline:** [Quantitative improvement, e.g., "+12% accuracy", "25% reduction in MSE"]
-- **Best Alternative Model:** [Second-best model and its performance]
+- **Baseline Performance:** 90% precision class 4, 88% accuracy 
+- **Improvement Over Baseline:** -5% precision class 4, -1% accuracy
+- **Best Alternative Model:** model_resnet18: 75% precision class 4, 83% accuracy 
 
 #### Key Insights
-- **Most Important Features:** [Top 3-5 features that drive model performance]
-- **Model Strengths:** [What the model does well]
-- **Model Limitations:** [Known limitations and failure cases]
-- **Business Impact:** [Practical implications of the model performance]
+- **Most Important Features:**   - random energy window crop is a very effective method to inhibit overfitting
+                                 - lognormalize decreases the effect of hotpixel influence
+                                 - resize will be important for future application
+                                 - weights of different classes in the CrossEntropyLoss is necessary to compensate the class imbalance
+- **Model Strengths:** In contrast to the baseline model, the labeling of a second unrelated dataset is working considerably better. That is why the model can be considered a success even with a slight decrease in the used metrics. 
+- **Model Limitations:** The model is only trained on one material and temperature, thus it is only applicable to those datasets for now. The labeling by hand limits the quality of the training data. 
+- **Business Impact:** With further training the application in the lab is possible to automatize the selection of the best spot for longterm measurements. 
 
 ## Documentation
 
